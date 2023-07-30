@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>簡単なWebサイト</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 5px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 5px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #555;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>簡単なWebサイト</h1>
+    </header>
+    <nav>
+        <a href="#">ホーム</a>
+        <a href="#">サービス</a>
+        <a href="#">連絡先</a>
+    </nav>
+    <section>
+        <h2>ようこそ！</h2>
+        <p>これは、簡単なWebサイトの例です。</p>
+        <p>ここにサイトのコンテンツを追加してください。</p>
+    </section>
+    <footer>
+        <p>© 2023 簡単なWebサイト. All rights reserved.</p>
+    </footer>
+</body>
+</html>
